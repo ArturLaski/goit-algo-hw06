@@ -36,3 +36,25 @@ The difference in paths is due to the nature of the two algorithms. DFS prioriti
 ## Conclusion
 
 Both DFS and BFS are essential graph traversal algorithms with distinct strategies. Understanding their differences is crucial for selecting the appropriate algorithm based on the specific requirements of a problem.
+
+
+# Homework: Graph Algorithms with Dijkstra's Algorithm
+
+## Introduction
+
+This part of the homework demonstrates the use of Dijkstra's algorithm to find the shortest paths in a weighted graph. The graph is constructed to represent a network where each node, except the central node, has two children, and each edge has a weight.
+
+## Graph Description
+
+The graph is created as follows:
+- A central node (0) connected to 5 peripheral nodes (1 to 5).
+- Each peripheral node has two children.
+- Each edge has a specific weight.
+
+## Dijkstra's Algorithm Implementation
+
+Dijkstra's algorithm finds the shortest paths from a given start vertex to all other vertices in the graph. It uses a priority queue to explore the nodes with the smallest known distance first.
+
+## Results
+
+### Shortest Paths
